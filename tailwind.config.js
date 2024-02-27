@@ -17,11 +17,18 @@ module.exports = {
     },
     extend: {
       colors: {
+        // Nuevos colores de la paleta con nombres descriptivos
+        darkBlue: '#134371', // Color oscuro azul de la paleta
+        brightBlue: '#0159E8', // Color azul brillante de la paleta
+        lightCyan: '#00C8F8', // Color cian de la paleta
+        vibrantYellow: '#FFCA1F', // Color amarillo de la paleta
+        // Colores existentes se mantienen sin cambios
         primary: '#ec4755',
         secondary: '#a12c34',
         tertiary: '#99a0a3',
         border: '#1a2e35',
-        background: '#ffffff',
+        background: '#134471',
+        accent: '#0159E8',
       },
       animation: {
         vote: 'vote 1s ease-in-out',
