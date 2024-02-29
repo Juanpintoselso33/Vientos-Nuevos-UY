@@ -23,7 +23,7 @@ module.exports = {
         lightCyan: '#00C8F8', // Color cian de la paleta
         vibrantYellow: '#FFCA1F', // Color amarillo de la paleta
         // Colores existentes se mantienen sin cambios
-        primary: '#ec4755',
+        primary: '#ffffff',
         secondary: '#a12c34',
         tertiary: '#99a0a3',
         border: '#1a2e35',
