@@ -32,12 +32,16 @@
     "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
     "img": "/assets/images/z6Ri8Adv.jpg",
     "primaryAction": {
-      "text": "Get started",
-      "href": "#"
+      "text": "Quiero militar",
+      "href": "#",
+      "buttonImg1": "assets/images/button1-b.jpg",
+      "buttonImg2": "assets/images/button1-a.jpg"
     },
     "secondaryAction": {
-      "text": "Email us",
-      "href": "mailto:issaafakattan@gmail.com?subject=I like react landing page!"
+      "text": "Colaborar con nosotros",
+      "href": "#donations",
+      "buttonImg3": "assets/images/button2-a.jpg",
+      "buttonImg4": "assets/images/button2-b.jpg"
     }
   },
   "product": {
@@ -45,7 +49,7 @@
     "items": [
       {
         "title": "A plug n play template",
-        "description": "Just edit the config.json file with details about your company and voila your beautiful state of the art landing page is ready to go live! Remember to also update your assets, add any images you want to show to /assets/images and link them in the config.json",
+        "description": "Somos jóvenes, somos blancos, somos el impulso renovador que el partido necesita; somos Vientos Nuevos soplando en las viejas banderas del Partido Nacional.        Apasionados por la actividad política y con un firme compromiso por un Uruguay con mejores oportunidades para todos y todas. Por ello, buscamos participar en las elecciones internas de 2024 con una lista departamental en Montevideo, respaldando la candidatura de Jorge Gandini.",
         "url": "/assets/videos/video.mp4"
       }
     ]
@@ -77,44 +81,46 @@
       }
     ]
   },
-  "pricing": {
-    "title": "Pricing",
+  "donations": {
+    "title": "Apoya Nuestra Causa",
+    "description": "¿Sabías que la principal limitante de los jóvenes a la hora de hacer política es la falta de recursos económicos? Por eso, si quieres acompañarnos pero no tienes el suficiente tiempo para militar puedes apoyar económicamente esta renovación con el monto que gustes.",
     "items": [
       {
-        "name": "Free",
-        "price": "$0",
-        "priceDetails": "for one user",
-        "features": [
-          "1 user",
-          "Basic Support",
-          "1 GB of storage",
-          "Email support"
-        ]
+        "name": "Donación Básica",
+        "info": "Con tu ayuda podemos hacer la diferencia.",
+        "mercadoPagoLink": "https://link.mercadopago.com/tu-link-de-donacion"
       },
       {
-        "name": "Pro",
-        "price": "$15",
-        "priceDetails": "per user",
-
-        "features": [
-          "5 users",
-          "Priority Support",
-          "10 GB of storage",
-          "Phone and Email support"
-        ]
+        "name": "Donación Regular",
+        "info": "Tu contribución regular nos ayuda a planificar a largo plazo.",
+        "mercadoPagoLink": "https://link.mercadopago.com/tu-otro-link-de-donacion"
       },
       {
-        "name": "Enterprise",
-        "price": "$29",
-        "priceDetails": "per user",
-        "features": [
-          "50 users",
-          "24/7 Support",
-          "100 GB of storage",
-          "Phone and Email support"
-        ]
+        "name": "Donación Generosa",
+        "info": "Haz un impacto significativo con una donación más grande.",
+        "mercadoPagoLink": "https://link.mercadopago.com/tu-tercer-link-de-donacion"
       }
-    ]
+    ],
+    "bankDetails": {
+      "title": "Cuentas Bancarias",
+      "description": "Detalles de la cuenta bancaria para donaciones directas.",
+      "accounts": [
+        {
+          "bankName": "Banco 1",
+          "accountNumber": "123456789",
+          "currency": "USD",
+          "additionalInfo": "Información adicional sobre Banco 1"
+        }
+      ]
+    }
+  },
+  "bankTabImages": {
+    "default": "assets/images/button-b1.jpg",
+    "hover": "assets/images/button-b2.jpg"
+  },
+  "mercadoPagoTabImages": {
+    "default": "assets/images/button-mp1.jpg",
+    "hover": "assets/images/button-mp2.jpg"
   },
   "about": {
     "sections": [
