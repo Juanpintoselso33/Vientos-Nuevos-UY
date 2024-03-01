@@ -69,8 +69,9 @@ const Features = () => {
           <div style={{ overflow: 'hidden' }}>
             <iframe
               src="//lightwidget.com/widgets/1138456a4fe058d5aa30aacdd3fc7d2b.html"
-              scrolling="no"
               allowTransparency={true}
+              scrolling="no"
+              className="lightwidget-widget"
               style={{
                 width: '100%',
                 height: iframeHeight,

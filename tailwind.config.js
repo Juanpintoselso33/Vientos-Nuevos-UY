@@ -24,11 +24,11 @@ module.exports = {
         vibrantYellow: '#FFCA1F', // Color amarillo de la paleta
         // Colores existentes se mantienen sin cambios
         primary: '#ffffff',
-        secondary: '#a12c34',
-        tertiary: '#99a0a3',
-        border: '#1a2e35',
+        secondary: '#ffffff',
+        tertiary: '#ffffff',
+        border: '#ffffff',
         background: '#134471',
-        accent: '#0159E8',
+        accent: '#ffffff',
       },
       animation: {
         vote: 'vote 1s ease-in-out',

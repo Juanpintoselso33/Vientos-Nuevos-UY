@@ -11,13 +11,19 @@ const Pricing = () => {
   return (
     <section className="bg-background py-8" id="donations">
       <div className="container mx-auto px-2 pt-4 pb-12 flex flex-col justify-center items-center text-primary">
-        <h1 className="w-full my-2 text-5xl font-bold leading-tight text-center text-vibrantYellow">
+        <h1 className="w-full my-2 text-5xl font-bold leading-tight text-center text-vibrantYellow mb-20">
           {donations.title}
         </h1>
-        <p className="text-center text-lg px-4 my-4 mx-auto max-w-2xl mt-10 mb-10">
-          {donations.description}
-        </p>
-        <div className="flex justify-center mb-6">
+
+        {donations.description.map((paragraph, index) => (
+          <p
+            key={index}
+            className="text-center text-lg px-4 my-4 mx-auto max-w-2xl mb-5"
+          >
+            {paragraph}
+          </p>
+        ))}
+        <div className="flex justify-center mb-6 mt-10">
           <div
             className="flex items-center justify-center border border-transparent rounded-md hover:border-white w-32 h-12 md:w-64 md:h-24 mr-4"
             style={{

@@ -1,7 +1,9 @@
 {
   "company": {
     "name": "Vientos Nuevos",
-    "logo": "/assets/images/logo.png"
+    "logo": "/assets/images/logo.png",
+    "logo250": "/assets/images/logo-250.png",
+    "logoPlp": "/assets/images/logo-plp.png"
   },
   "navigation": [
     {
@@ -9,31 +11,26 @@
       "href": "product"
     },
     {
-      "name": "Features",
-      "href": "features"
-    },
-
-    {
-      "name": "Pricing",
-      "href": "pricing"
+      "name": "Apoyarnos",
+      "href": "donations"
     },
     {
-      "name": "About",
-      "href": "about"
+      "name": "Contacto",
+      "href": "contact"
     }
   ],
   "callToAction": {
-    "text": "Get started",
+    "text": "Inicio",
     "href": "#"
   },
   "mainHero": {
     "title": "VIENTOS NUEVOS",
     "subtitle": "Soplando en viejas banderas",
-    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
+    "description": "¡Te damos la bienvenida a la página web de Vientos Nuevos! Explora el sitio para conocer nuestro proyecto y descubre cómo puedes ser parte de nuestro espacio renovador.",
     "img": "/assets/images/z6Ri8Adv.jpg",
     "primaryAction": {
       "text": "Quiero militar",
-      "href": "#",
+      "href": "https://wa.me/59894735234?text=Hola%2C%20me%20gustar%C3%ADa%20obtener%20m%C3%A1s%20informaci%C3%B3n.",
       "buttonImg1": "assets/images/button1-b.jpg",
       "buttonImg2": "assets/images/button1-a.jpg"
     },
@@ -49,7 +46,11 @@
     "items": [
       {
         "title": "A plug n play template",
-        "description": "Somos jóvenes, somos blancos, somos el impulso renovador que el partido necesita; somos Vientos Nuevos soplando en las viejas banderas del Partido Nacional.        Apasionados por la actividad política y con un firme compromiso por un Uruguay con mejores oportunidades para todos y todas. Por ello, buscamos participar en las elecciones internas de 2024 con una lista departamental en Montevideo, respaldando la candidatura de Jorge Gandini.",
+        "description": [
+          "Somos jóvenes, somos blancos, somos el impulso renovador que el partido necesita; somos Vientos Nuevos soplando en las viejas banderas del Partido Nacional.",
+          "Apasionados por la actividad política y con un firme compromiso por un Uruguay con mejores oportunidades para todos y todas.",
+          "Por ello, buscamos participar en las elecciones internas de 2024 con una lista departamental en Montevideo, respaldando la candidatura de Jorge Gandini."
+        ],
         "url": "/assets/videos/video.mp4"
       }
     ]
@@ -83,7 +84,10 @@
   },
   "donations": {
     "title": "Apoya Nuestra Causa",
-    "description": "¿Sabías que la principal limitante de los jóvenes a la hora de hacer política es la falta de recursos económicos? Por eso, si quieres acompañarnos pero no tienes el suficiente tiempo para militar puedes apoyar económicamente esta renovación con el monto que gustes.",
+    "description": [
+      "¿Sabías que la principal limitante de los jóvenes a la hora de hacer política es la falta de recursos económicos?",
+      "Por eso, si quieres acompañarnos pero no tienes el suficiente tiempo para militar puedes apoyar económicamente esta renovación con el monto que gustes."
+    ],
     "items": [
       {
         "name": "Donación Básica",
@@ -122,6 +126,13 @@
     "default": "assets/images/button-mp1.jpg",
     "hover": "assets/images/button-mp2.jpg"
   },
+  "contact": {
+    "title": "Envíanos tu idea",
+    "description": [
+      "¿Tienes una idea para construir un Uruguay mejor y más próspero?",
+      "Nos encargaremos de transmitirla a nuestro precandidato."
+    ]
+  },
   "about": {
     "sections": [
       {
@@ -146,9 +157,8 @@
       }
     ],
     "socialMedia": {
-      "github": "https://github.com/issaafalkattan",
-      "twitter": "https://twitter.com/issaafkattan",
-      "linkedin": "https://www.linkedin.com/in/issaaf-kattan/"
+      "twitter": "https://twitter.com/vientosnuevosuy",
+      "instagram": "https://www.instagram.com/vientosnuevosuy/"
     }
   }
 }
