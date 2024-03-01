@@ -60,7 +60,7 @@ const Product = () => {
             </p>
           )}
         </div>
-        <div className="mt-10">
+        <div className="mt-20">
           <video ref={videoRef} controls style={{ maxWidth: '100%' }}>
             {product.items[0]?.url && (
               <source src={product.items[0].url} type="video/mp4" />

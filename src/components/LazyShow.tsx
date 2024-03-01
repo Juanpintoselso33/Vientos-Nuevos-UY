@@ -40,8 +40,8 @@ const LazyShow = ({ children }: { children: React.ReactChild }) => {
         x: 0,
         opacity: 1,
         transition: {
-          duration: 0.5,
-          ease: 'easeOut',
+          duration: 1, // Tiempo aumentado para una transición más lenta
+          ease: 'easeInOut', // Función de facilidad cambiada a 'easeInOut' para una entrada/salida más suave
         },
       });
     }
