@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 
 import config from '../config/index.json'; // Asegúrate de que la ruta sea correcta
+import ThankYouSection from './ThanksSection';
 
 const Pricing = () => {
   const { donations, bankTabImages, mercadoPagoTabImages } = config;
@@ -108,6 +109,9 @@ const Pricing = () => {
           </div>
         )}
       </div>
+      {(activeTab === 'bank' || activeTab === 'mercadoPago') && (
+        <ThankYouSection />
+      )}
     </section>
   );
 };

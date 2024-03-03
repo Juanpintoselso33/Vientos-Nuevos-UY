@@ -66,10 +66,10 @@
     ]
   },
   "donations": {
-    "title": "Apoya Nuestra Causa",
+    "title": "Apoya nuestra causa",
     "description": [
       "¿Sabías que la principal limitante de los jóvenes a la hora de hacer política es la falta de recursos económicos?",
-      "Por eso, si quieres acompañarnos pero no tienes el suficiente tiempo para militar puedes apoyar económicamente esta renovación con el monto que gustes."
+      "Por eso, si quieres acompañarnos pero no tienes el suficiente tiempo para militar puedes apoyar económicamente esta renovación con el monto que quieras."
     ],
     "items": [
       {
@@ -99,6 +99,16 @@
           "additionalInfo": "Información adicional sobre Banco 1"
         }
       ]
+    },
+    "thanksMessage": {
+      "title": "Ya colabore",
+      "description": [
+        "¡Gracias por apoyarnos!",
+        "Te invitamos a comunicarte con nosotros asi podemos agradecerte personalmente."
+      ],
+      "href": "https://wa.me/59894735234?text=Hola!%20He%20realizado%20una%20donaci%C3%B3n.",
+      "default": "assets/images/thanks1.png",
+      "hover": "assets/images/thanks2.png"
     }
   },
   "bankTabImages": {

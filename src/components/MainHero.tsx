@@ -32,8 +32,10 @@ const MainHero = () => {
         <p className="mt-3 text-base text-white sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
           {mainHero.description}
         </p>
-        <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
-          <div className="flex justify-center items-center mt-3 sm:mt-0 sm:ml-3">
+        <div className="mt-10 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
+          {/* Botón de acción primaria - ahora no se envuelve en pantallas pequeñas */}
+
+          <div className="mt-5 sm:mt-8 flex flex-wrap justify-center items-center">
             <a
               href={mainHero.primaryAction.href}
               onMouseEnter={() => handlePrimaryHover(true)}
@@ -48,11 +50,11 @@ const MainHero = () => {
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
                 backgroundRepeat: 'no-repeat',
+                // Aplicamos un margen a la derecha en pantallas menores a 640px
+                marginRight: '1rem', // Este es un valor de ejemplo, ajusta según sea necesario
               }}
             />
-          </div>
-          {/* Botón de acción secundaria */}
-          <div className="flex justify-center items-center mt-3 sm:mt-0 sm:ml-3">
+            {/* Botón de acción secundaria */}
             <a
               href={mainHero.secondaryAction.href}
               onMouseEnter={() => handleSecondaryHover(true)}
