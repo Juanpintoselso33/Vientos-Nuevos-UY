@@ -1,16 +1,16 @@
 import React from 'react';
 
-import About from '../components/About';
+import AboutUs from '../components/AboutUs';
 import Analytics from '../components/Analytics';
 import Canvas from '../components/Canvas';
 import Contact from '../components/Contact';
+import Donations from '../components/Donations';
 import Features from '../components/Features';
+import Footer from '../components/Footer';
 import Header from '../components/Header';
 import LazyShow from '../components/LazyShow';
 import MainHero from '../components/MainHero';
 import MainHeroImage from '../components/MainHeroImage';
-import Pricing from '../components/Pricing';
-import Product from '../components/Product';
 
 const App = () => {
   return (
@@ -29,8 +29,7 @@ const App = () => {
       <Canvas />
       <LazyShow>
         <>
-          <Product />
-          {/* <Canvas /> */}
+          <AboutUs />
         </>
       </LazyShow>
       <LazyShow>
@@ -40,7 +39,7 @@ const App = () => {
         </>
       </LazyShow>
       <LazyShow>
-        <Pricing />
+        <Donations />
       </LazyShow>
       <LazyShow>
         <>
@@ -51,7 +50,7 @@ const App = () => {
       <LazyShow>
         <>
           <Canvas />
-          <About />
+          <Footer />
         </>
       </LazyShow>
       <Analytics />

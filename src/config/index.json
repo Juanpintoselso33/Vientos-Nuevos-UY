@@ -73,19 +73,9 @@
     ],
     "items": [
       {
-        "name": "Donación Básica",
+        "name": "Donación via Mercado Pago",
         "info": "Con tu ayuda podemos hacer la diferencia.",
-        "mercadoPagoLink": "https://link.mercadopago.com/tu-link-de-donacion"
-      },
-      {
-        "name": "Donación Regular",
-        "info": "Tu contribución regular nos ayuda a planificar a largo plazo.",
-        "mercadoPagoLink": "https://link.mercadopago.com/tu-otro-link-de-donacion"
-      },
-      {
-        "name": "Donación Generosa",
-        "info": "Haz un impacto significativo con una donación más grande.",
-        "mercadoPagoLink": "https://link.mercadopago.com/tu-tercer-link-de-donacion"
+        "mercadoPagoLink": "http://link.mercadopago.com.uy/valecuatrouy"
       }
     ],
     "bankDetails": {
