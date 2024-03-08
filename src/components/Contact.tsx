@@ -49,9 +49,13 @@ const Contact = () => {
           <h2 className="text-5xl font-bold text-center mb-4 text-vibrantYellow">
             Contactarnos
           </h2>
-          <p className="text-lg mb-4">
-            En esta seccion podes dejarnos un mensaje
-          </p>
+          <div className="mb-4 text-center">
+            {contact.description.map((paragraph, index) => (
+              <p key={index} className="mt-2">
+                {paragraph}
+              </p>
+            ))}
+          </div>
         </div>
         <div className="flex justify-center">
           <form onSubmit={handleSubmit} className="w-full max-w-lg">
