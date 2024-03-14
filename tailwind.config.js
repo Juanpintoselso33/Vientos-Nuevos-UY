@@ -33,6 +33,18 @@ module.exports = {
       animation: {
         vote: 'vote 1s ease-in-out',
       },
+      transitionProperty: {
+        'smooth-fade': 'opacity',
+      },
+      transitionDuration: {
+        500: '500ms',
+      },
+      transitionTimingFunction: {
+        'in-out': 'ease-in-out',
+      },
+      opacity: {
+        75: '0.75',
+      },
       keyframes: {
         vote: {
           '0%, 100%': {

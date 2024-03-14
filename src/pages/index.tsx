@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { Helmet } from 'react-helmet'; // Added import for Helmet
+
 import AboutUs from '../components/AboutUs';
 import Analytics from '../components/Analytics';
 import Canvas from '../components/Canvas';
@@ -11,10 +13,14 @@ import Header from '../components/Header';
 import LazyShow from '../components/LazyShow';
 import MainHero from '../components/MainHero';
 import MainHeroImage from '../components/MainHeroImage';
+import { AppConfig } from '../utils/AppConfig'; // Assuming AppConfig is correctly set up as per instructions
 
 const App = () => {
   return (
     <div className={`bg-background grid gap-y-16 overflow-hidden`}>
+      <Helmet>
+        <title>{AppConfig.title}</title>
+      </Helmet>
       <div className={`relative bg-background`}>
         <div className="max-w-7xl mx-auto">
           <div

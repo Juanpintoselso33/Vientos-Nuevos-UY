@@ -29,7 +29,7 @@ const Donations = () => {
         ))}
         <div className="flex justify-center mb-6 mt-10">
           <div
-            className="flex items-center cursor-pointer justify-center border border-transparent rounded-md hover:border-white w-32 h-12 md:w-64 md:h-24 mr-4"
+            className="flex items-center cursor-pointer justify-center border border-transparent rounded-md hover:border-white w-32 h-12 md:w-64 md:h-24 mr-4 transition-opacity duration-500 ease-in-out hover:opacity-75"
             style={{
               backgroundImage: `url(${
                 isBankHovered ? bankTabImages.hover : bankTabImages.default
@@ -43,7 +43,7 @@ const Donations = () => {
             onClick={() => setActiveTab(activeTab !== 'bank' ? 'bank' : null)}
           />
           <div
-            className="flex items-center cursor-pointer justify-center border border-transparent rounded-md hover:border-white w-32 h-12 md:w-64 md:h-24 mr-4"
+            className="flex items-center cursor-pointer justify-center border border-transparent rounded-md hover:border-white w-32 h-12 md:w-64 md:h-24 mr-4 transition-opacity duration-500 ease-in-out hover:opacity-75"
             style={{
               backgroundImage: `url(${
                 isMercadoPagoHovered

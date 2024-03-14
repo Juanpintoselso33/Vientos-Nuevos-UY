@@ -23,14 +23,14 @@ const Contact = () => {
         'xRY-cXYFUPf570twL'
       )
       .then(
-        (_) => {
+        () => {
           setStatusMessage(
             'Mensaje enviado correctamente. Gracias por contactarnos!'
           );
           setSubmitting(false);
           form.reset(); // Optional: to reset the form fields after successful submission
         },
-        (_) => {
+        () => {
           setStatusMessage(
             'Hubo un error al enviar el mensaje. Por favor, intenta de nuevo.'
           );

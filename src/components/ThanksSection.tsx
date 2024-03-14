@@ -23,7 +23,7 @@ const ThankYouSection = () => {
         {/* Envuelve el div con un elemento 'a' para hacerlo clickeable */}
         <a
           href={donations.thanksMessage.href} // Este es el link al que el usuario será dirigido
-          className="cursor-pointer hover:border-none"
+          className="cursor-pointer hover:border-none transition-smooth-fade duration-500 ease-in-out"
           onMouseEnter={() => setIsHovered(true)}
           onMouseLeave={() => setIsHovered(false)}
         >

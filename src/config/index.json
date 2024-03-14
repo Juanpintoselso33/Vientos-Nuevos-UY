@@ -3,7 +3,9 @@
     "name": "Vientos Nuevos",
     "logo": "/assets/images/logo.png",
     "logo250": "https://i.ibb.co/k6msvPw/logo-250.png",
-    "logoPlp": "/assets/images/logo-plp.png"
+    "logoPlp": "/assets/images/logo-plp.png",
+    "logoYp": "/assets/images/logoYoPuedo.png",
+    "logoJg": "/assets/images/logoGandiniPresidente.png"
   },
   "navigation": [
     {
@@ -27,7 +29,9 @@
     "title": "VIENTOS NUEVOS",
     "subtitle": "Soplando en viejas banderas",
     "description": "¡Te damos la bienvenida a la página web de Vientos Nuevos! Explora el sitio para conocer nuestro proyecto y descubre cómo puedes ser parte de nuestro espacio renovador.",
-    "img": "https://i.ibb.co/6n1SbJm/mainImg.png",
+    "img": "assets/images//mainImg.png",
+    "imgSm": "assets/images//mainImgSm.jpg",
+
     "primaryAction": {
       "text": "Quiero militar",
       "href": "https://wa.me/59894735234?text=%C2%A1Hola!%20Quisiera%20militar%20junto%20a%20ustedes%20en%20estas%20elecciones.%20%E2%9C%8C%F0%9F%8F%BC%F0%9F%98%81.",
@@ -56,7 +60,7 @@
     ]
   },
   "features": {
-    "title": "¿Que buscamos?",
+    "title": "¿Qué buscamos?",
     "subtitle": "All the best technologies out there!",
     "description": [
       "Vientos Nuevos es un proyecto político que surge con el objetivo de ampliar y enriquecer la oferta electoral en las próximas elecciones internas de 2024 mediante una lista departamental en Montevideo.",

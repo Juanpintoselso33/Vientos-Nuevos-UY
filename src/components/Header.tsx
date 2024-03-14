@@ -8,12 +8,12 @@ import config from '../config/index.json';
 
 const Menu = () => {
   const { navigation, company, callToAction } = config;
-  const { name: companyName, logo } = company;
+  const { name: companyName, logo, logoYp, logoJg } = company;
 
   return (
     <>
       <svg
-        className={`hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-background transform translate-x-1/2`}
+        className="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-background transform translate-x-1/2"
         fill="currentColor"
         viewBox="0 0 100 100"
         preserveAspectRatio="none"
@@ -28,27 +28,28 @@ const Menu = () => {
             className="relative flex items-center justify-between sm:h-10 lg:justify-start"
             aria-label="Global"
           >
-            <div
-              className={`flex items-center flex-grow flex-shrink-0 lg:flex-grow-0 focus:ring-2 focus:ring-inset focus:ring-white `}
-            >
-              <div
-                className={`flex items-center justify-between w-full md:w-auto focus:ring-2 focus:ring-inset focus:ring-white`}
-              >
-                <a
-                  href="#"
-                  className="font-medium text-white hover:text-gray-400 hover:border-b-2 hover:border-white hover:border-opacity-100 cursor-pointer"
-                >
-                  <span className="sr-only">{companyName}</span>
-                  <img
-                    alt="logo"
-                    className={`h-16 w-auto sm:h-16 focus:ring-2 focus:ring-inset focus:ring-white`}
-                    src={logo}
-                  />
-                </a>
-                <div className="-mr-2 flex items-center md:hidden">
-                  <Popover.Button
-                    className={`bg-background rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white`}
+            <div className="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0 focus:ring-2 focus:ring-inset focus:ring-white ">
+              <div className="flex items-center justify-between w-full md:w-auto focus:ring-2 focus:ring-inset focus:ring-white">
+                <div className="flex items-center">
+                  <a
+                    href="#"
+                    className="flex items-center font-medium text-white hover:text-gray-400 hover:border-b-2 hover:border-white hover:border-opacity-100 cursor-pointer"
                   >
+                    <span className="sr-only">{companyName}</span>
+                    <img
+                      alt="logo"
+                      className="h-16 w-auto sm:h-16 focus:ring-2 focus:ring-inset focus:ring-white"
+                      src={logo}
+                    />
+                  </a>
+                  {/* Logos adicionales para pantallas pequeñas */}
+                  <div className="flex ml-2 lg:hidden">
+                    <img src={logoJg} alt="Logo Jg" className="h-16" />
+                    <img src={logoYp} alt="Logo Yp" className="h-16" />
+                  </div>
+                </div>
+                <div className="-mr-2 flex items-center md:hidden">
+                  <Popover.Button className="bg-background rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
                     <span className="sr-only">Open main menu</span>
                     <MenuIcon className="h-6 w-6" aria-hidden="true" />
                   </Popover.Button>
@@ -71,7 +72,7 @@ const Menu = () => {
               ))}
               <a
                 href="#"
-                className={`font-medium text-white hover:text-gray-400  hover:border-b-2 hover:border-white`}
+                className="font-medium text-white hover:text-gray-400  hover:border-b-2 hover:border-white"
               >
                 {callToAction.text}
               </a>

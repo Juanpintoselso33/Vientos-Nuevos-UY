@@ -40,7 +40,7 @@ const MainHero = () => {
               href={mainHero.primaryAction.href}
               onMouseEnter={() => handlePrimaryHover(true)}
               onMouseLeave={() => handlePrimaryHover(false)}
-              className="flex items-center justify-center border border-transparent rounded-md hover:border-white w-32 h-12 md:w-64 md:h-24"
+              className="flex items-center justify-center border border-transparent rounded-md hover:border-white w-32 h-12 md:w-64 md:h-24 transition-opacity duration-500 ease-in-out hover:opacity-75"
               style={{
                 backgroundImage: `url(${
                   isPrimaryHovered
@@ -59,7 +59,7 @@ const MainHero = () => {
               href={mainHero.secondaryAction.href}
               onMouseEnter={() => handleSecondaryHover(true)}
               onMouseLeave={() => handleSecondaryHover(false)}
-              className="flex items-center justify-center border border-transparent rounded-md hover:border-white w-32 h-12 md:w-64 md:h-24"
+              className="flex items-center justify-center border border-transparent rounded-md hover:border-white w-32 h-12 md:w-64 md:h-24 transition-opacity duration-500 ease-in-out hover:opacity-75"
               style={{
                 backgroundImage: `url(${
                   isSecondaryHovered
