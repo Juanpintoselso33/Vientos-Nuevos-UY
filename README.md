@@ -1,107 +1,61 @@
-# React.js landing page template v2
+# Vientos Nuevos UY Landing Page
 
-## <a href="https://react-landing-page-template-2021.vercel.app/"> LIVE DEMO</a>
+## Description
 
-<img src="public/assets/gifs/demo.gif" width="100%" height="auto" />
+This project is a React.js/Next.js based landing page for "Vientos Nuevos UY", a political project aimed at enriching the electoral offer in Uruguay. It showcases the project's vision, mission, and how to support or get involved with it.
 
-### Description
+## Features
 
-This is a React.js/Next.js based landing page plug-n-play template, ideal for startups/companies/service providers wanting to showcase their vision in a single page sleek and modern landing page.
+- Responsive design for all devices.
+- Integration with Tailwind CSS for styling.
+- Dynamic content management through a single JSON file (`src/config/index.json`).
+- Donation links and bank account details for financial support.
+- Contact form integration with EmailJS for direct communication.
+- Video and social media integration to engage visitors.
 
-### Features
+## Getting Started
 
-- 📱 Responsive design
-- 🔥 [Next.js](https://nextjs.org) for Static Site Generator
+### Prerequisites
 
-- 🎨 Integrate with [Tailwind CSS](https://tailwindcss.com) (w/ JIT mode)
+- Node.js
+- Yarn package manager
 
-- 💅 PostCSS for processing Tailwind CSS and integrated to `styled-jsx`
+### Installation
 
-- 🎉 Type checking [TypeScript](https://www.typescriptlang.org)
+Clone the repository and install dependencies:
 
-- 🗂 VSCode configuration: Debug, Settings, Tasks and extension for PostCSS, ESLint, Prettier, TypeScript
-
-- 🤖 SEO metadata, JSON-LD and Open Graph tags with Next SEO
-
-- 🖱️ One click deployment with Vercel or Netlify (or manual deployment to any hosting services)
-
-Built-in feature from Next.js:
-
-- ☕ Minify HTML & CSS
-- 💨 Live reload
-- ✅ Cache busting
-
-### Make it your own
-
-#### 1. Clone repo
-
-```
-git clone https://github.com/issaafalkattan/react-landing-page-template-2021.git
-cd react-landing-page-template-2021
+```bash
+git clone https://github.com/your-repository-url.git
+cd react-landing-page-2021
 yarn
 ```
 
-Then, you can run locally in development mode with live reload:
+### Running the Project
 
-```
+To run the project locally in development mode:
+
+```bash
 yarn dev
 ```
 
-Open <http://localhost:3000> with your favorite browser to see your project.
+Open <http://localhost:3000> to view it in the browser.
 
-#### 2. Add your own content
 
-1.  **Content**: change the configuration in the `src/config/index.json` file to change the content of the landing page to match your use `src/config/index.json` folder and .
-2.  **Images**: add any images/icons..etc to the `public/assets/images` folder and update their reference source in `src/config/index.json`.
-3.  **Theme**: to change the theme, update the `tailwind.config.js` file to match the theme of your branding. [Tutorial](https://tailwindcss.com/docs/configuration).
+You can deploy the `out` directory to any static hosting service.
 
-#### 3. Deploy to production
+## Contributing
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fissaafalkattan%2Freact-landing-page-template-2021)
+Contributions are welcome! Please open an issue if you have suggestions or find a bug.
 
-##### Deploy manually
+## License
 
-You can see the results locally in production mode with:
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-```
-yarn build
-yarn start
-```
+## Acknowledgments
 
-The generated HTML and CSS files are minified (built-in feature from Next js). It will also removed unused CSS from [Tailwind CSS](https://tailwindcss.com).
+- [Next.js](https://nextjs.org) for the React framework.
+- [Tailwind CSS](https://tailwindcss.com) for the utility-first styling.
+- [EmailJS](https://www.emailjs.com/) for handling contact form submissions.
+- This project was bootstrapped with [React Landing Page Template v2](https://github.com/issaafalkattan/react-landing-page-template-2021). If you liked this template, consider [buying them a coffee ☕](https://www.buymeacoffee.com/issaaf).
 
-You can create an optimised production build with:
-
-```
-yarn build-prod
-```
-
-### Contributions
-
-Everyone is welcome to contribute to this project. Feel free to open an issue if you have question or found a bug.
-
-### License
-
-Licensed under the MIT License, Copyright © 2021
-
-## Liked this template? <a href="https://www.buymeacoffee.com/issaaf">Buy me a coffee ☕️</a>
-
----
-
-### Looking for v1? <a href="https://github.com/issaafalkattan/React-Landing-Page-Template">V1</a>
-
-```
-
-```
-
-```
-
-```
-
-```
-
-```
-
-```
-
-```
+For more information or to view a demo, visit the [live demo](https://react-landing-page-template-2021.vercel.app/).
