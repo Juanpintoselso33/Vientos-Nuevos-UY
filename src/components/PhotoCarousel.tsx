@@ -6,20 +6,11 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
 const PhotoCarousel = ({ images }: { images: string[] }) => (
   <Carousel showThumbs={false} infiniteLoop useKeyboardArrows autoPlay>
     {images.map((src, index) => (
-      <div
-        key={index}
-        style={{ height: '48rem', lineHeight: '48rem', textAlign: 'center' }}
-      >
+      <div key={index} className="text-center">
         <img
           src={src}
           alt={`carousel-${index}`}
-          style={{
-            maxHeight: '100%',
-            maxWidth: '100%',
-            height: '48rem',
-            width: 'auto',
-            verticalAlign: 'middle',
-          }}
+          className="max-h-[96rem] md:max-h-[48rem] w-full md:max-w-screen-lg object-contain"
         />
       </div>
     ))}
