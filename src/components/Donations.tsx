@@ -1,10 +1,11 @@
 // src/components/Donations.tsx
 import React, { useState } from 'react';
 
-import config from '../config/index.json'; // Make sure the path is correct
+// This should come first
 import BankInfoSection from './BankInfoSection';
 import MercadoPagoSection from './MercadoPagoSection';
 import ThankYouSection from './ThanksSection';
+import config from '../config/index.json'; // This should come after
 
 const Donations = () => {
   const { donations, bankTabImages, mercadoPagoTabImages } = config;
